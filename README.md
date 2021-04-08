@@ -5,6 +5,8 @@
 
 O expo-Notifications fornece uma API para buscar tokens de notificação push e para apresentar, agendar, receber e responder a notificações.
 
+[EXPO Notifications](https://docs.expo.io/versions/latest/sdk/notifications/)
+
     $ expo install expo-notifications 
 
 ## Android
