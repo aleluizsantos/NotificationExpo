@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "NotificationExpo",
+    "name": "Notification Expo",
     "slug": "NotificationExpo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,11 +20,19 @@
       "supportsTablet": true
     },
     "android": {
+      "useNextNotificationsApi": true,
+      "icon": "./assets/iconNotification.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
+    "notification": { 
+      "icon": "./assets/iconNotification.png", 
+      "color": "#8ac53f", 
+      "androidMode": "default", 
+      "androidCollapsedTitle": "Title Notification" 
+    }, 
     "web": {
       "favicon": "./assets/favicon.png"
     }
